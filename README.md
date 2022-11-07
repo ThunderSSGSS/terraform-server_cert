@@ -24,7 +24,7 @@ The module was tested using:
 ### Creating and validating a certificate for the domain: example.com
 ```hcl
 module "example" {
-    source                  = ...
+    source                  = "github.com/ThunderSSGSS/terraform-server_cert"
     domain_name             = "example.com"
     cert_validation_timeout = 10
 }
